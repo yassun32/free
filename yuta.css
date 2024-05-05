@@ -1,0 +1,136 @@
+  #gnrl{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    background:#18222f;
+    margin: 5px 0 0 0;
+    color:#fff;
+    border: solid rgb(14, 14, 14);
+    height: 1500px;
+  }
+  
+  
+  .text {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding-right: 100px;
+    padding-top: 85px;
+    margin-left: 25px;
+}
+  p:hover {
+    text-decoration-color: red;
+  }
+
+
+  #title {
+    background-color:#3d3a4e;
+    height: 50px;
+
+  }
+  h1{
+    text-align:center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #1f1bf8;
+    box-shadow:  20px 20px 60px #1f65cf;
+    color:black;
+    letter-spacing: 2px;         
+  }
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #7f8c8d;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times;
+    font-weight: bold;
+    
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(42, 7, 238) 10.8%,
+      rgb(79, 89, 230) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  #but {
+    width:300px;
+    margin-left: 70px;
+    height: 80px;
+    padding:100px auto;
+    background-color:#18222f;
+    margin-bottom: 600px;
+    padding-left: 50px;
+
+  }
+  Aspan{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 17, 255);
+    font-style: oblique;
+  }
+  .pic{   
+    border: solid 4px #18222f;
+    background-color: #18222f;
+    margin-left: 500px;
+    margin-top: 25px;
+  }
+
+  a1{
+    text-decoration: none;
+    color: inherit;
+  }
+  a1:hover {
+    text-decoration: underline blanchedalmond;
+    color: #3d3a4e;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    color: blue;
+  }
+  ul {
+    color: black;
+    float: right;
+    margin-right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: x-large;
+    margin-top: 40px;
+  }
+  li {
+    display: inline-block;
+    padding-left: 30px;
+  }
+  
